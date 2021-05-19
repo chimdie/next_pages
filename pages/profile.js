@@ -1,5 +1,3 @@
-import Layout from "../components/Layout";
-
-const ProfileView = props => <Layout>{`My Profile`}</Layout>;
+const ProfileView = props => <>{`My Profile`}</>;
 
 export default ProfileView;

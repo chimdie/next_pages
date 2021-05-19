@@ -1,5 +1,3 @@
-import Layout from "../components/Layout";
-
-const ExploreView = props => <Layout>{`Explore Next Spaces with us`}</Layout>;
+const ExploreView = props => <>{`Explore Next Spaces with us`}</>;
 
 export default ExploreView;

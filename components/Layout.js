@@ -3,8 +3,8 @@ import NavBar from "./NavBar";
 import Head from "next/head";
 import navButtons from "../config/button";
 
-export const appTitle = "next pages";
-const Layout = (props, children) => {
+export const appTitle = "_pages";
+const Layout = (props) => {
   return (
     <div className="Layout">
       <Head>
@@ -13,7 +13,7 @@ const Layout = (props, children) => {
       <Header appTitle={appTitle} />
       <div className="Content">{props.children}</div>
       <NavBar navButtons={navButtons} />
-    </div>
+    </div> 
   );
 };
 export default Layout;

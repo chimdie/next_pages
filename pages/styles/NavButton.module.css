@@ -1,21 +1,21 @@
 .NavButton {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1.5rem;
-    height: 100%;
-    cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem;
+  height: 100%;
+  cursor: pointer;
 }
-    .Icon {
-      font-size: 20px;
-    }
-  
-    .Label {
-      font-size: 12px;
-      text-transform: capitalize;
-    }
-    .active{
-      background-color: red;
-      color: green
-    }
+.Icon {
+  font-size: 20px;
+}
+
+.Label {
+  font-size: 12px;
+  text-transform: capitalize;
+}
+.active {
+  background-color: red;
+  color: green;
+}

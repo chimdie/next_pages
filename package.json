@@ -15,12 +15,10 @@
     "@fontawesome/fontawesome-svg-core": "file:fontawesome/free-solid-svg-icons@fontawesome/react-fontawesome",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
-    "cheerio": "*",
     "next": "^10.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "request": "^2.88.2",
-    "request-promise": "^4.2.6",
-    "sass": "^1.32.8"
+    "request-promise": "^4.2.6"
   }
 }

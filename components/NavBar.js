@@ -1,17 +1,16 @@
 import NavButton from "./NavButton";
-import style from '../styles/navbar.module.css'
-  
-  const NavBar = (props) => (
-    <div className={style.NavBar} >
-      {props.navButtons.map(button => (
+
+const NavBar = (props) => (
+  <div className='NavBar'>
+    {props.navButtons.map((button) => (
       <NavButton
         key={button.path}
+        icon={button.icon}
         path={button.path}
         label={button.label}
-        icon={button.icon}
       />
     ))}
-    </div>
-  );
-  
-  export default NavBar;
+  </div>
+);
+
+export default NavBar;

@@ -3,8 +3,8 @@ import React from 'react'
 
 function Footer () {
     return (
-        <div >
-           <p>high way...</p> 
+        <div className="Footer">
+           <p>high way</p> 
         </div>
     )
 }

@@ -11,7 +11,6 @@ const NavButton = (props) => (
         }`}
       >
         <div className={styles.Icon}>{props.icon}</div>
-        {/* <span className="Label">{props.label}</span> */}
       </div>
     </Link>
   </>

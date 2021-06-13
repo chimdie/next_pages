@@ -1,19 +1,16 @@
 .Header {
   color: white;
   width: 100%;
-  height: 50px;
+  height: 90px;
   display: flex;
   align-items: center;
-  text-align: center;
-  justify-content: center;
+  /* justify-content: center; */
   /*justify-content: between; use after resolving profile and cart buttons to be at the top */
-  align-items: center;
   height: 50px;
-  padding: 0 20px;
+  padding: 2rem 20px;
   font-family: Arial, sans-serif;
   font-size: 24px;
   font-weight: bold;
-  color: white;
   text-transform: capitalize;
   background: crimson;
   cursor: pointer;

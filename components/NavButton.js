@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "../pages/styles/NavButton.module.css";
+import styles from "../styles/NavButton.module.css";
 import { withRouter } from "next/router";
 
 const NavButton = (props) => (

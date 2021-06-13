@@ -1,6 +1,6 @@
 import NavButtons from './NavButton'
 import {appTitle} from './Layout'
-import style from '../pages/styles/header.module.css'
+import style from '../styles/header.module.css'
 import Link from 'next/link'
 
 const Header = (props) => (

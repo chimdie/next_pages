@@ -1,5 +1,5 @@
 import NavButton from "./NavButton";
-import style from '../pages/styles/navbar.module.css'
+import style from '../styles/navbar.module.css'
   
   const NavBar = (props) => (
     <div className={style.NavBar} >

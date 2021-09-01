@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import navButtons from "../config/button";
 
 export const appTitle = "next|pages";
+
 const Layout = ({ children }) => {
   const [isNav, setNav] = useState(false);
 
@@ -16,16 +17,13 @@ const Layout = ({ children }) => {
   const resize = () => {
     setNav(window.innerWidth <= 760);
   };
-  
+
   return (
     <div className="Layout">
       <Head>
         <title>{appTitle}</title>
       </Head>
-      <Header>
-        appTitle={appTitle}
-        {/* {isNav ? <></> : navButtons={navButtons}} */}
-      </Header>
+      <Header appTitle={appTitle} />
       <div className="Content">{children}</div>
       {isNav ? <NavBar navButtons={navButtons} /> : <Footer />}
     </div>

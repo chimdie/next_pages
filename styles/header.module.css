@@ -13,8 +13,8 @@
   background: #356172;
   cursor: pointer;
   text-decoration: none;
-  position: fixed;
+  /* position: fixed;
   left: 0;
-  top: 0;
+  top: 0; */
 }
 /*justify-content: between; use after resolving profile and cart buttons to be at the top */

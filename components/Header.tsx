@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import NavButtons from "./NavButton";
-import { appTitle } from "./Layout";
+// import { appTitle } from "./Layout";
 import style from "../styles/header.module.css";
 
-const Header = (props) => {
+export default function Header(): JSX.Element {
   const [isNav, setNav] = useState(false);
 
   useEffect(() => {
@@ -16,11 +16,6 @@ const Header = (props) => {
   };
 
   return (
-    <div className={style.Header}>
-      <Link href="/">{appTitle}</Link>
-
-    </div>
+    <div className={style.Header}>{/* <Link href="/">{appTitle}</Link> */}</div>
   );
-};
-
-export default Header;
+}

@@ -1,7 +1,7 @@
 import NavButton from "./NavButton";
 
-const NavBar = (props) => (
-  <div className='NavBar'>
+const NavBar = (props: { navButtons: any[] }) => (
+  <div className="NavBar">
     {props.navButtons.map((button) => (
       <NavButton
         key={button.path}

@@ -1,13 +1,11 @@
 import { useEffect, useState } from "react";
-import Header from "./Header";
-import NavBar from "./NavBar";
+import { NavBar, Footer } from "../components";
 import Head from "next/head";
-import Footer from "./Footer";
-import navButtons from "../config/button";
+import navButtons from "../configs/buttonConfig";
 
 export const appTitle = "next|pages";
 
-const Layout = ({ children }) => {
+const Layout = ({ children }: any): JSX.Element => {
   const [isNav, setNav] = useState(false);
 
   useEffect(() => {
@@ -23,7 +21,7 @@ const Layout = ({ children }) => {
       <Head>
         <title>{appTitle}</title>
       </Head>
-      <Header appTitle={appTitle} />
+      {/* <Header appTitle={appTitle} /> */}
       <div className="Content">{children}</div>
       {isNav ? <NavBar navButtons={navButtons} /> : <Footer />}
     </div>
